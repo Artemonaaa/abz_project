@@ -1,0 +1,48 @@
+@import '../../../theme/styles/var';
+
+.input-box {
+  position: relative;
+  width: 380px;
+  margin-bottom: 30px; 
+   
+}
+
+.input-box input {
+  width: 100%;
+  padding: 17px;
+  border: 1px solid #D0CFCF;
+  background: $colorBackgroundMainPage;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-box span {
+  position: absolute;
+  color: #7E7E7E;
+  left: 0;
+  padding: 17px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-box input:valid ~ span,
+.input-box input:focus ~ span {
+  color: #7E7E7E;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 12px;
+  padding: 0 17px;
+  background: $colorBackgroundMainPage;
+}
+
+.input-box p {
+  color: #7E7E7E;
+  font-size: 12px;
+  padding: 0 17px;
+} 
+
+.error {
+  position: relative;
+  padding: 4px 0 0 17px;
+  color: #CB3D40;
+  font-size: 12px;
+}

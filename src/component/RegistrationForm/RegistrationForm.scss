@@ -1,0 +1,16 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration p {
+  margin-bottom: 14px;
+}
+
+.form-submit {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  margin-top: 50px;
+}

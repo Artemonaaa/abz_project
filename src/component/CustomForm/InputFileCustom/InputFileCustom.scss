@@ -1,0 +1,27 @@
+.file {
+  width: 380px;
+  margin-top: 50px;
+}
+
+.input-file {
+	position: relative;
+  display: flex;
+  cursor: pointer;
+
+  &-text {
+    width: 100%;
+    padding: 15.3px 16px;
+	  border: 1px solid #D0CFCF;
+    border-left: transparent;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  &-button {
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 4px 0 0 4px;
+    padding: 17px 14.5px;
+    border: 1px solid rgba(0, 0, 0, 0.87);
+  }
+}

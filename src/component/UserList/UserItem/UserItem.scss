@@ -1,0 +1,94 @@
+@import '../../../theme/styles/var.scss';
+
+
+.user-item {
+  width: 370px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 0px 29px 29px 0px;
+
+  &-container {
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+
+  &-photo {
+    margin: 20px 0;
+    border-radius: 50%;
+  }
+
+  &-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+  }
+
+  &-position {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-phone {
+    margin-bottom: 20px;
+  }
+
+  &:nth-child(3n) {
+    margin: 0px 0px 29px 0px;
+  }
+}
+
+
+@media screen and (max-width: $deskMin) {
+  .user-item {
+    width: 282px;
+  }
+
+  .user-item-container {
+    width: 242px;
+    margin: 0 auto;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: $mobMax) {
+  .user-item {
+    width: 334px;
+    margin: 0px 16px 16px 0px;
+    &:nth-child(3n) {
+      margin: 0px 16px 16px 0px;
+    }
+  }
+
+  .user-item-container {
+    width: 304px;
+    margin: 0 auto;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+} 
+
+@media screen and (max-width: $mobMin) {
+  .user-item {
+    width: 328px;
+    margin: 0px 0px 20px 0px;
+
+    &:nth-child(3n) {
+      margin: 0px 0px 20px 0px;
+    }
+  }
+
+  .user-item-container {
+    width: 288px;
+    margin: 0 auto;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+} 
