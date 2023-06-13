@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <main>
-        {/*<section className="main-title">
+        <section className="main-title">
           <div className="main-image">
             <div className="main-image-caption">
               <h1>
@@ -34,12 +34,10 @@ function App() {
           </div>
           <Button title="Show more" onClick={() => setCurrentPage(prev => prev + 1)} />
         </section>
-  */}
         <section className="main-postruqeust container">
           <h1 className="main-postruqeust-title">Working with Post request</h1>
           <RegistrationForm />
         </section> 
-
       </main>
     </>
   );  
